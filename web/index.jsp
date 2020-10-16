@@ -12,5 +12,9 @@
   </head>
   <body>
   This is the index page - test
+
+  <hr>
+  <a href="hello/showForm">Hello World Form</a>
+
   </body>
 </html>
