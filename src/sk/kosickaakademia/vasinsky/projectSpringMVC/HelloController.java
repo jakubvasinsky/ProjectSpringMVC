@@ -57,3 +57,6 @@ return "helloworld" ;
     }
 
 }
+    /** prazdny konstruktor gettery a settery firstname a email novy formular 
+     * nova trieda student odosle sa to do View a view ukaze vysledky
+     */
