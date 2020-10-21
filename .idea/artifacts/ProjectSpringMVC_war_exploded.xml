@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="ProjectSpringMVC:war exploded">
+  <artifact type="exploded-war" build-on-make="true" name="ProjectSpringMVC:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/ProjectSpringMVC_war_exploded</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="ProjectSpringMVC/web/Web" />
@@ -13,6 +13,7 @@
           <element id="library" level="project" name="Hibernate 5.4.11-5.4.11" />
         </element>
       </element>
+      <element id="library" level="project" name="jstl-1.2.jar" />
     </root>
   </artifact>
 </component>

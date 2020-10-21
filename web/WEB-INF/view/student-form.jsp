@@ -20,14 +20,25 @@ Name: <form:input path="studentName"/>
 Email: <form:input path="eMail"/>
     <br><br>
 Country: <form:select path="country">
-    <form:option value="" label="Choose your country:"/>
-    <form:option value="" label="---------------------------"/>
-<form:option value="Slovakia" label="Slovakia"/>
-<form:option value="Czech Republic" label="Czech Republic"/>
-<form:option value="Hungary" label="Hungary"/>
-<form:option value="Romania" label="Romania"/>
-<form:option value="Slovenia" label="Slovenia"/>
+  <%--  <form:option value="" label="Choose your country:"/>
+    <form:option value="" label="---------------------------"/>--%>
+<form:options items = "${student.countryOptions}" />
 </form:select>
+    <br><br>
+Favorite Programming Language:
+
+    Java <form:radiobutton path="favoriteLanguage" value="Java"/>
+    C# <form:radiobutton path="favoriteLanguage" value="C#"/>
+    Ruby <form:radiobutton path="favoriteLanguage" value="Ruby"/>
+    PHP <form:radiobutton path="favoriteLanguage" value="PHP"/>
+
+    <br><br>
+
+Operating System:
+    MS Windows <form:checkbox path="operatingSystems" value="MS Windows"/>
+    Mac OS <form:checkbox path="operatingSystems" value="Mac OS"/>
+    Linux <form:checkbox path="operatingSystems" value="Linux"/>
+
     <br><br>
     <input type="submit" value="Submit"/>
 
