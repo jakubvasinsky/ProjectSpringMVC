@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact name="jstl-1_2_jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/jstl_1_2_jar</output-path>
+    <root id="root">
+      <element id="library" level="project" name="jstl-1.2.jar" />
+    </root>
+  </artifact>
+</component>

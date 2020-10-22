@@ -11,9 +11,22 @@
           <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
           <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
           <element id="library" level="project" name="Hibernate 5.4.11-5.4.11" />
+          <element id="library" level="project" name="validation-api-2.0.1.Final" />
+          <element id="library" level="project" name="jstl-1.1.2" />
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="artifact" artifact-name="jstl-1_2_jar" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="jstl-1.1.2 (2)" />
+          <element id="library" level="project" name="hibernate-validator-6.1.6.Final" />
+          <element id="library" level="project" name="hibernate-validator-annotation-processor-6.1.6.Final" />
+          <element id="library" level="project" name="hibernate-validator-cdi-6.1.6.Final" />
+          <element id="library" level="project" name="jakarta.el-3.0.3" />
+          <element id="library" level="project" name="jakarta.validation-api-2.0.2" />
+          <element id="library" level="project" name="validation-api-2.0.1.Final (2)" />
+          <element id="library" level="project" name="classmate-1.3.4" />
         </element>
       </element>
-      <element id="library" level="project" name="jstl-1.2.jar" />
     </root>
   </artifact>
 </component>

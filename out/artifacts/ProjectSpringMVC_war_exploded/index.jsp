@@ -11,12 +11,14 @@
     <title>Index Page</title>
   </head>
   <body>
-  This is the index page - test
+  Welcome to the Index Page
 
   <hr>
   <a href="hello/showForm">Hello World Form</a>
   <br><br>
   <a href="student/showForm">Student Form</a>
+  <br><br>
+  <a href="customer/showForm">Customer Form</a>
 
   </body>
 </html>

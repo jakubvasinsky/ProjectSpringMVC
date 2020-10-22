@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
 <html>
 <head>
     <title>Student Registration Form</title>
@@ -38,6 +39,7 @@ Operating System:
     MS Windows <form:checkbox path="operatingSystems" value="MS Windows"/>
     Mac OS <form:checkbox path="operatingSystems" value="Mac OS"/>
     Linux <form:checkbox path="operatingSystems" value="Linux"/>
+
 
     <br><br>
     <input type="submit" value="Submit"/>
