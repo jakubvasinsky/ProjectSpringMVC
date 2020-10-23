@@ -35,7 +35,10 @@ public class CustomerController {
     public String processForm(
             @Valid @ModelAttribute("customer") Customer theCustomer,
             BindingResult theBindingResult){
-        System.out.println("Last Name: |"+theCustomer.getLastName()+"|");
+        System.out.println("Last Name: |"+theCustomer.getLastName()+"|");  //Vypise do konzoly priezvisko (kontrola, ci pole zoberie medzeru)
+
+       /* System.out.println("Binding result: "+theBindingResult);*/       //Ukaze cestu ku kodom na prepis za ucelom vlastnej chybovej hlasky
+
         if (theBindingResult.hasErrors()){
             return "customer-form";
         }else {
