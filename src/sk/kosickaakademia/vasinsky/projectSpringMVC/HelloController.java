@@ -5,11 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.servlet.ServletException;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
 
 @Controller
@@ -17,9 +13,9 @@ import javax.servlet.http.HttpServletResponse;
 
 
 public class HelloController {
-@RequestMapping("/home")
-    public String HomeTest(){
-        return "home-page";
+@RequestMapping("/surprise")
+    public String surprise(){
+        return "surprise";
     }
 
     @RequestMapping("/showForm")

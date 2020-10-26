@@ -14,7 +14,7 @@
         .error{color:red}
     </style>
 </head>
-<body>
+<body style="background-image: url('http://www.ozniesmesami.sk/wp-content/uploads/2017/04/web-background.jpg')">
 
 
 <form:form action="processForm" modelAttribute="customer">
@@ -28,6 +28,10 @@
     <br><br>
     Postal code: <form:input path="postalCode"/>
     <form:errors path="postalCode" cssClass="error"/>
+    <br><br>
+
+    Course code: <form:input path="courseCode"/>
+    <form:errors path="courseCode" cssClass="error"/>
     <br><br>
     <input type="submit" value="Submit"/>
 

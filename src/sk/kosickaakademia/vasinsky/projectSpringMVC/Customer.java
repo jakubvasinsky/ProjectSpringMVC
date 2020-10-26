@@ -1,5 +1,7 @@
 package sk.kosickaakademia.vasinsky.projectSpringMVC;
 
+import sk.kosickaakademia.vasinsky.projectSpringMVC.validation.CourseCode;
+
 import javax.validation.constraints.*;
 
 public class Customer {
@@ -16,6 +18,9 @@ public class Customer {
 
     @Pattern(regexp = "^[a-zA-Z0-9]{5}", message = "Only 5 characters/digits")
     private String postalCode;
+
+    @CourseCode   //na upravu overovaneho slova ... (value="SLOVO", message="must start with SLOVO")
+    private String courseCode;
 
 
     public String getPostalCode() {
@@ -48,5 +53,13 @@ public class Customer {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getCourseCode() {
+        return courseCode;
+    }
+
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
     }
 }

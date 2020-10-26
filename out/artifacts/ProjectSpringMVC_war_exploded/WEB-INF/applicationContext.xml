@@ -7,6 +7,7 @@
 
     <context:component-scan base-package="sk.kosickaakademia.vasinsky.projectSpringMVC"/>
 <mvc:annotation-driven/>
+    <mvc:resources mapping="/images/**" location="/images/" />
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 
         <property name="prefix" value="/WEB-INF/view/"/>

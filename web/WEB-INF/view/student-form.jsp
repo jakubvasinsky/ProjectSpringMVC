@@ -12,7 +12,7 @@
 <head>
     <title>Student Registration Form</title>
 </head>
-<body>
+<body style="background-image: url('http://www.ozniesmesami.sk/wp-content/uploads/2017/04/web-background.jpg')">
 
 <form:form action="processForm" modelAttribute="student">
 

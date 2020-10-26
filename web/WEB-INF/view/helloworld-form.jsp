@@ -10,7 +10,7 @@
 <head>
     <title>Hello World - Input Form</title>
 </head>
-<body>
+<body style="background-image: url('http://www.ozniesmesami.sk/wp-content/uploads/2017/04/web-background.jpg')">
 <form action="processFormVersionThree" method="GET">
 
     <input type="text" name="studentName"

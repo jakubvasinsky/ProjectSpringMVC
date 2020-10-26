@@ -10,7 +10,7 @@
 <head>
     <title>Hello World - Confirmation Page</title>
 </head>
-<body>
+<body style="background-image: url('http://www.ozniesmesami.sk/wp-content/uploads/2017/04/web-background.jpg')">
 Hello World of Spring!
 
 <br><br>

@@ -13,12 +13,14 @@
 <head>
     <title>Customer Confirmation</title>
 </head>
-<body>
+<body style="background-image: url('http://www.ozniesmesami.sk/wp-content/uploads/2017/04/web-background.jpg')">
 
 The customer is confirmed: ${customer.firstName} ${customer.lastName}
 <br><br>
 Free passes: ${customer.freePasses}
 <br><br>
 Postal code: ${customer.postalCode}
+<br><br>
+Course code: ${customer.courseCode}
 </body>
 </html>

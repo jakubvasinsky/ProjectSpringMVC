@@ -12,7 +12,7 @@
 <head>
     <title>Student Confirmation</title>
 </head>
-<body>
+<body style="background-image: url('http://www.ozniesmesami.sk/wp-content/uploads/2017/04/web-background.jpg')">
 The students Name: ${student.studentName}
 <br><br>
 The students Email: ${student.eMail}
